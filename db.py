@@ -16,3 +16,5 @@ class NewsArticle(Base):
 engine = create_engine('sqlite:///news.db')
 Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
+
+#update
